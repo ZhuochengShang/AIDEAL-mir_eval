@@ -1,0 +1,8 @@
+{
+  "delivery": "native_exception_message",
+  "validation": {
+    "path": "/home/zshan011/apps/aideal/studies/2026-11-17-latest-stable-canonical/native-hint-authoring-2026-11-18/mir_eval/caller-correction/validation/transcription/checks/validation.json",
+    "sha256": "1a00224d828fcabc23d0f9754faee426c16a710ea25933aefe21d97615067b87",
+    "bytes": 582485
+  }
+}
