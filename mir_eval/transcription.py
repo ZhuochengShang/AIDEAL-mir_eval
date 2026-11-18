@@ -134,7 +134,7 @@ def validate(ref_intervals, ref_pitches, est_intervals, est_pitches):
 
     # Make sure intervals and pitches match in length
     if not ref_intervals.shape[0] == ref_pitches.shape[0]:
-        raise ValueError("Reference intervals and pitches have different " "lengths.")
+        raise ValueError("Reference intervals and pitches have different lengths. [AIDEAL fix:interval_pitch_length_match] Ensure the number of rows in the interval array matches the number of elements in the pitch array.")
     if not est_intervals.shape[0] == est_pitches.shape[0]:
         raise ValueError("Estimated intervals and pitches have different " "lengths.")
 
